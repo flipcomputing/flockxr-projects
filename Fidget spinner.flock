@@ -6,7 +6,7 @@
         "type": "start",
         "id": "EA8Q`K7ng2aF+4;58O=F",
         "x": 10,
-        "y": 1910,
+        "y": 1870,
         "inputs": {
           "DO": {
             "block": {
@@ -741,6 +741,33 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "next": {
+                                                "block": {
+                                                  "type": "when_clicked",
+                                                  "id": "gNLp{|l?o%,?i]WmC%Jq",
+                                                  "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" inline=\"true\"></mutation>",
+                                                  "fields": {
+                                                    "MODEL_VAR": {
+                                                      "id": "Bx^E_bgEeEI()0gsDWo-"
+                                                    },
+                                                    "TRIGGER": "OnPickTrigger"
+                                                  },
+                                                  "inputs": {
+                                                    "DO": {
+                                                      "block": {
+                                                        "type": "export_mesh",
+                                                        "id": "O;](G-h!rigKL~4M+/jU",
+                                                        "fields": {
+                                                          "MESH_VAR": {
+                                                            "id": "uDK8a=tv]wB-H~`rF/M]"
+                                                          },
+                                                          "FORMAT": "STL"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
                                               }
                                             }
                                           }
@@ -1254,33 +1281,6 @@
                     }
                   }
                 }
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "when_clicked",
-        "id": "gNLp{|l?o%,?i]WmC%Jq",
-        "x": 10,
-        "y": 1738,
-        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" inline=\"false\"></mutation>",
-        "fields": {
-          "MODEL_VAR": {
-            "id": "Bx^E_bgEeEI()0gsDWo-"
-          },
-          "TRIGGER": "OnPickTrigger"
-        },
-        "inputs": {
-          "DO": {
-            "block": {
-              "type": "export_mesh",
-              "id": "O;](G-h!rigKL~4M+/jU",
-              "fields": {
-                "MESH_VAR": {
-                  "id": "uDK8a=tv]wB-H~`rF/M]"
-                },
-                "FORMAT": "STL"
               }
             }
           }
