@@ -1,0 +1,32 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "start",
+        "id": "b/#XYty#tA0iA:U`vztn",
+        "x": 10,
+        "y": 10,
+        "inputs": {
+          "DO": {
+            "block": {
+              "type": "set_sky_color",
+              "id": "!,B@CYI35n~@NraA=cP9",
+              "inputs": {
+                "COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": ",F}OV-8Wv#ZFdKmH@AR0",
+                    "fields": {
+                      "COLOR": "#ff99ff"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
