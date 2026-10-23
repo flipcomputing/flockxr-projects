@@ -1,0 +1,253 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "start",
+        "id": "yx]1#h-~|I[}4_l]|uAH",
+        "x": 10,
+        "y": 10,
+        "inputs": {
+          "DO": {
+            "block": {
+              "type": "set_sky_color",
+              "id": "Eb~H{C{Ui=;x#a5{UYuk",
+              "inputs": {
+                "COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": "Eeh7468MF:MxA#PB^{$W",
+                    "fields": {
+                      "COLOR": "#6495ed"
+                    }
+                  },
+                  "block": {
+                    "type": "lists_create_with",
+                    "id": "8L3?q@mz,{Ld#HNXR:du",
+                    "inline": true,
+                    "extraState": {
+                      "itemCount": 2
+                    },
+                    "inputs": {
+                      "ADD0": {
+                        "shadow": {
+                          "type": "colour",
+                          "id": "OBk4H7JR$Z/R#2-Z.6F(",
+                          "fields": {
+                            "COLOR": "#000066"
+                          }
+                        }
+                      },
+                      "ADD1": {
+                        "shadow": {
+                          "type": "colour",
+                          "id": "s#wvbb+m!eSL8tW|.e}.",
+                          "fields": {
+                            "COLOR": "#3333ff"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "create_map",
+                  "id": "mIC^:}x9L9g^_E]BiPT=",
+                  "fields": {
+                    "MAP_NAME": "random_hills.png"
+                  },
+                  "inputs": {
+                    "MATERIAL": {
+                      "shadow": {
+                        "type": "material",
+                        "id": "w}KDxXk-%7X?!Mw-g.gg",
+                        "fields": {
+                          "TEXTURE_SET": "none.png"
+                        },
+                        "inputs": {
+                          "BASE_COLOR": {
+                            "shadow": {
+                              "type": "colour",
+                              "id": "$4;1-~Rz8C]D*DDieWV!",
+                              "fields": {
+                                "COLOR": "#71bc78"
+                              }
+                            }
+                          },
+                          "ALPHA": {
+                            "shadow": {
+                              "type": "math_number",
+                              "id": "0C1.odlZOu]-0WTzUmlP",
+                              "fields": {
+                                "NUM": 1
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "block": {
+                        "type": "material",
+                        "id": "w}KDxXk-%7X?!Mw-g.gg",
+                        "fields": {
+                          "TEXTURE_SET": "fabric.png"
+                        },
+                        "inputs": {
+                          "BASE_COLOR": {
+                            "shadow": {
+                              "type": "colour",
+                              "id": "$4;1-~Rz8C]D*DDieWV!",
+                              "fields": {
+                                "COLOR": "#006600"
+                              }
+                            }
+                          },
+                          "ALPHA": {
+                            "shadow": {
+                              "type": "math_number",
+                              "id": "0C1.odlZOu]-0WTzUmlP",
+                              "fields": {
+                                "NUM": 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "start",
+        "id": "Om}-OpI12pBKw]k8587Z",
+        "x": 10,
+        "y": 254,
+        "inputs": {
+          "DO": {
+            "block": {
+              "type": "load_character",
+              "id": "fR3p3MweR2H=qJ~QTiw2",
+              "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\" has_do=\"false\"></mutation>",
+              "fields": {
+                "ID_VAR": {
+                  "id": "d7R-JAF`CvMa]#FH17D2"
+                },
+                "MODELS": "Block4.glb"
+              },
+              "inputs": {
+                "SCALE": {
+                  "shadow": {
+                    "type": "math_number",
+                    "id": "me/JaZ39WCOh%P,,q1/9",
+                    "fields": {
+                      "NUM": 2
+                    }
+                  }
+                },
+                "X": {
+                  "shadow": {
+                    "type": "math_number",
+                    "id": "WPpR@}{SLqCJSx(~aNod",
+                    "fields": {
+                      "NUM": -1.3
+                    }
+                  }
+                },
+                "Y": {
+                  "shadow": {
+                    "type": "math_number",
+                    "id": "2_^-lOi3=@x^[[C46:M1",
+                    "fields": {
+                      "NUM": 0
+                    }
+                  }
+                },
+                "Z": {
+                  "shadow": {
+                    "type": "math_number",
+                    "id": "Il#,1(W2O(xF;$]w.3!R",
+                    "fields": {
+                      "NUM": 32.3
+                    }
+                  }
+                },
+                "HAIR_COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": "+}A?`TmkB_r#1hB0_HH,",
+                    "fields": {
+                      "COLOR": "#33ff33"
+                    }
+                  }
+                },
+                "SKIN_COLOR": {
+                  "shadow": {
+                    "type": "skin_colour",
+                    "id": "ejst1+hvKMY~8Z#C?rk4",
+                    "fields": {
+                      "COLOR": "#a15c33"
+                    }
+                  },
+                  "block": {
+                    "type": "colour",
+                    "id": "3B/1U)$*DH_)DDQ:@vI{",
+                    "fields": {
+                      "COLOR": "#9932cc"
+                    }
+                  }
+                },
+                "EYES_COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": ";!9bB*~`C)kE4I6k[fzf",
+                    "fields": {
+                      "COLOR": "#ffffff"
+                    }
+                  }
+                },
+                "TSHIRT_COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": "%R?IlXa*SO]d=]1eX%+v",
+                    "fields": {
+                      "COLOR": "#ffff00"
+                    }
+                  }
+                },
+                "SHORTS_COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": "^;.9f},BS1y(y6dk2U30",
+                    "fields": {
+                      "COLOR": "#000000"
+                    }
+                  }
+                },
+                "SLEEVES_COLOR": {
+                  "shadow": {
+                    "type": "colour",
+                    "id": "gLp{bwMhp(ahO|H(O`Sw",
+                    "fields": {
+                      "COLOR": "#cc0000"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "character1",
+      "id": "d7R-JAF`CvMa]#FH17D2"
+    }
+  ]
+}
